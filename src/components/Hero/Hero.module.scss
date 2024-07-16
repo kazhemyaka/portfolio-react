@@ -1,0 +1,28 @@
+.hero {
+  margin-top: 6.25rem;
+  margin-bottom: 1000px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2.125rem solid #750d37;
+  }
+
+  &__text {
+    width: 60%;
+  }
+
+  &__img {
+    width: 15.188rem;
+    height: 15.188rem;
+    border-radius: 50%;
+  }
+
+  &__title {
+    margin-block: 2rem;
+  }
+
+  &__desc {
+    margin-top: 2rem;
+  }
+}

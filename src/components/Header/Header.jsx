@@ -9,8 +9,7 @@ const Header = () => {
   const { i18n, t } = useTranslation();
 
   const headerElements = [
-    { link: "/#about-me", title: t("aboutme") },
-    { link: "/#skills", title: t("skills") },
+    { link: "/", title: t("home") },
     { link: "/contacts", title: t("contacts") },
   ];
 
