@@ -1,18 +1,16 @@
 import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 
-const Layout = () => {
+const ContactsLayout = () => {
   return (
     <Fragment>
       <Header />
       <main>
         <Outlet />
       </main>
-      <Footer />
     </Fragment>
   );
 };
 
-export default Layout;
+export default ContactsLayout;
