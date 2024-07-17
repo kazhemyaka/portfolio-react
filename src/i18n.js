@@ -17,6 +17,7 @@ i18n.use(initReactI18next).init({
         location: "Zviahel, Ukraine",
         desc: "I am a student who wants to connect his life with Front-End or Full-Stack development. Currently, I have no practical experience, but I want to gain it!",
         downloadcv: "Download CV",
+        skills: "Skills",
       },
     },
     ua: {
@@ -28,6 +29,7 @@ i18n.use(initReactI18next).init({
         location: "Звягель, Україна",
         desc: "Я студент, який хоче пов'язати своє життя з Front-End або Full-Stack розробкою. Наразі я не маю практичного досвіду, але хочу його отримати!",
         downloadcv: "Завантажити CV",
+        skills: "Скіли",
       },
     },
   },
