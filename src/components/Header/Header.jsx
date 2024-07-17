@@ -36,8 +36,8 @@ const Header = () => {
             <button
               key={index}
               onClick={() => changeLanguage(lng)}
-              className={classNames(styles.header__button, {
-                [styles["header__button--active"]]: i18n.language === lng,
+              className={classNames(styles.header__language, {
+                [styles["header__language--active"]]: i18n.language === lng,
               })}
             >
               {lng}
