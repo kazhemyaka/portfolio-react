@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={`container ${styles.footer__container}`}>
-        <Socials />
+        <Socials justify="center" />
         <p>Copyright ©2024 All rights reserved </p>
       </div>
     </footer>

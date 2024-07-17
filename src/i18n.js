@@ -20,6 +20,9 @@ i18n.use(initReactI18next).init({
         skills: "Skills",
         p1: "I am currently trying to gain knowledge of React. I also have basic skills in Spring Boot web application development, as Java is the main programming language at the university. It helped me a lot to understand HTML and CSS. I also studied HTML/CSS and JavaScript in a separate course, so I have the skills to work with these technologies. I also studied these technologies at the Front-End development course from Beetroot Academy.",
         p2: "In my free time, I am engaged in self-education, taking various mini-courses, reading documentation and performing various tasks.",
+        "contacts-title": "Thank you for visiting my website!",
+        "contacts-p":
+          "I'll be happy if you follow me on social media or check out my Github repositories!",
       },
     },
     ua: {
@@ -34,6 +37,9 @@ i18n.use(initReactI18next).init({
         skills: "Скіли",
         p1: "Наразі я намагаюся отримати знання про React. Я також маю базові навички розробки веб-додатків на Spring Boot, оскільки Java є основною мовою програмування в університеті. Мені це дуже допомогло для розуміння HTML та CSS. Також я вивчав HTML/CSS та JavaScript на окремій дисципліні, тому маю навички роботи з цими технологіями. Також я вивчав ці технології на курсі Front-End розробки від Beetroot Academy.",
         p2: "У вільний час займаюся самоосвітою, проходжу різні міні-курси, читаю документацію та виконую різні завдання.",
+        "contacts-title": "Дякую, що відвідали мій сайт!",
+        "contacts-p":
+          "Мені буде приємно, якщо ви зайдете на мої соцмережі або поцікавитеся моїми репозиторіями на Github!",
       },
     },
   },

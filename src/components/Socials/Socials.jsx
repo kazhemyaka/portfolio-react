@@ -1,5 +1,14 @@
 import Social from "../Social/Social";
 import styles from "./Socials.module.scss";
+import styled from "styled-components";
+
+const StyledSocials = styled.div`
+  justify-content: ${(props) => props.$justify};
+
+  @media screen and (max-width: 954px) {
+    justify-content: center;
+  }
+`;
 
 import {
   FaInstagram,
@@ -32,13 +41,13 @@ const socials = [
   },
 ];
 
-const Socials = () => {
+const Socials = ({ justify }) => {
   return (
-    <div className={styles.socials}>
+    <StyledSocials className={styles.socials} $justify={justify}>
       {socials.map((social, index) => (
         <Social icon={social.icon} link={social.link} key={index} />
       ))}
-    </div>
+    </StyledSocials>
   );
 };
 
