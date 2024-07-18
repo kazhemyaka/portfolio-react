@@ -5,18 +5,21 @@ import "./i18n";
 import ContactsLayout from "./components/Layout/ContactsLayout";
 import ContactsPage from "./pages/ContactsPage";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Layout />,
-    children: [{ index: true, element: <Home /> }],
-  },
-  {
-    path: "/contacts",
-    element: <ContactsLayout />,
-    children: [{ index: true, element: <ContactsPage /> }],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Layout />,
+      children: [{ index: true, element: <Home /> }],
+    },
+    {
+      path: "/contacts",
+      element: <ContactsLayout />,
+      children: [{ index: true, element: <ContactsPage /> }],
+    },
+  ],
+  { basename: "/portfolio-react/" }
+);
 
 function App() {
   return <RouterProvider router={router} />;
