@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.header__nav}>
-        <div>
+        <div className={styles.header__navlist}>
           {headerElements.map((element, index) => (
             <NavLink
               key={index}
@@ -31,7 +31,7 @@ const Header = () => {
             </NavLink>
           ))}
         </div>
-        <div>
+        <div className={styles.header__languages}>
           {headerLanguages.map((lng, index) => (
             <button
               key={index}
