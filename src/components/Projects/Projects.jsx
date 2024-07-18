@@ -48,7 +48,7 @@ const Projects = () => {
   return (
     <section className={styles.projects}>
       <div className={`container ${styles.projects__container}`}>
-        <h2 className={styles.projects__title}>My projects</h2>
+        <h2 className={styles.projects__title}>{t("myprojects")}</h2>
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={20}
@@ -85,6 +85,7 @@ const Projects = () => {
           <FaArrowLeft className="swiper-prev" />
           <FaArrowRight className="swiper-next" />
         </IconContext.Provider>
+        <p className={styles.projects__desc}>{t("projects-desc")}</p>
       </div>
     </section>
   );

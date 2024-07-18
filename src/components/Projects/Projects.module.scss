@@ -2,10 +2,18 @@
   margin-block: 3.125rem;
 
   @media screen and (max-width: 1000px) {
-    margin-bottom: 5rem;
   }
 
   &__container {
     position: relative;
+  }
+
+  &__desc {
+    margin-top: 1.5rem;
+    text-align: center;
+
+    @media screen and (max-width: 1000px) {
+      margin-top: 5rem;
+    }
   }
 }
