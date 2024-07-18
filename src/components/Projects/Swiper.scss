@@ -1,0 +1,27 @@
+.swiper-next,
+.swiper-prev {
+  position: absolute;
+  cursor: pointer;
+}
+
+.swiper-next {
+  right: -2.7rem;
+  top: 60%;
+
+  @media screen and (max-width: 1000px) {
+    right: 0;
+    top: initial;
+    margin-top: 1.5rem;
+  }
+}
+
+.swiper-prev {
+  left: -2.7rem;
+  top: 60%;
+
+  @media screen and (max-width: 1000px) {
+    left: 0;
+    top: initial;
+    margin-top: 1.5rem;
+  }
+}

@@ -1,0 +1,11 @@
+.projects {
+  margin-block: 3.125rem;
+
+  @media screen and (max-width: 1000px) {
+    margin-bottom: 5rem;
+  }
+
+  &__container {
+    position: relative;
+  }
+}
