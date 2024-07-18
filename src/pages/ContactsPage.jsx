@@ -1,5 +1,5 @@
 import Contacts from "../components/Contacts/Contacts";
-import phoneIco from "../../public/phone-favicon.ico";
+import phoneIco from "/phone-favicon.ico";
 import { useEffect } from "react";
 
 const ContactsPage = () => {
